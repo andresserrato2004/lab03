@@ -94,5 +94,10 @@ url VARCHAR(100)
 
 
 
-
-
+--CICLO 1: PoblarOK (1) 
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('ABC123', 2020, 'A', 'A', 4, 5, NULL);
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('XYZ789', 2019, 'B', 'A', 2, 2, NULL);
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('DEF456', 2022, 'C', 'I', NULL, NULL, 1000);
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('GHI789', 2018, 'D', 'A', 4, 7, NULL);
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('JKL012', 2021, 'E', 'A', 2, NULL, 500);
+INSERT INTO Vehiculo (placa, a_o, tipo, estado, puertas, pasajeros, carga) VALUES ('MNO345', 2017, 'F', 'I', NULL, NULL, 800);
